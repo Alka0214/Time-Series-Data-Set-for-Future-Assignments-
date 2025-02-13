@@ -1,0 +1,37 @@
+---
+title: "Time Series Data for Future the Forecastings Models"
+author: "ad1660@scarletmail.rutgers.edu"
+date: "02/15/2024"
+output: html_document
+---
+  
+## Disctionary for Time Series Data Set(JOLTS-Job Openings Series for the past 10 years)
+
+| **Variable**       |          **Variable Name**                                                | **Measurment Unit**      | **Allowed Values**                | **Description**                                                         |
+|-------------------------|-------------------------------|---------------------|-------------------------|--------------------------------------------------|
+| Observation Date         |     Obs_Date                 | mm/dd/yyyy     | Dates                  | Represents the period for job openings data collection |    |
+| Job Openings (in thousands) |     Job_Open | Numeric  | Integer or Float |  Job openings data for businesses in the U.S. for each period  | 
+
+  
+  
+## Data Collection Methodology
+
+
+
+Source: U.S. Bureau of Labor Statistics(BLS)    |  
+Frequency: Monthly,  Adjustments: Not seasonally adjusted            |     
+Method: Survey of businesses across industries  |
+
+
+
+
+
+## Reasoning for data choice:
+
+#The data set intrigues me due to the fact that people keep saying "The job market is just bad". I want to find out if that statement makes at least some sort of sense. By having time series data set of job openings in thousands it would be interesting to see if the number of job openings has changed over time and "job makret is bad(low)" could be true.The most interesting aspect is to see the during COVID timeline, there could have been bad downfall that would make the data set more ingtriguing to work with due to the spcial case of pandemic. This time series data set is also a good choice since job openings usually increases or decreases depending on the period over the year which would show a trend. It would be great for forecasting to predict and see job market position.  
+  
+  
+  
+  
+  
+  
